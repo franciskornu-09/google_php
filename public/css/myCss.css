@@ -1,0 +1,118 @@
+body{
+	background-color: white
+}
+
+.space{
+	background-image:url('/assets/background.jpg'); 
+	margin-top: -15px; 
+	height: auto;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0; 
+    width: 70%;
+    color: blue;
+    position: center;
+}
+
+td{
+	background-color:#f2f2f2
+}
+
+.myColor{
+	color: black
+}
+
+.mySize{
+	font-size: 200%;
+	text-align: center;
+}
+
+.myTable{
+	margin-left: 5%; 
+	margin-top: 1%; 
+	color: #2A388F;
+	width: 80%;
+	margin-bottom:10%;
+}
+
+.myFooter{
+	position: static; 
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	height: 55px;
+	margin-top: 3%
+}
+
+.sFooter{
+	position: static; 
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	height: 55px;
+	margin-top: 3%
+}
+
+.sFoot{
+	position: fixed; 
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	height: 55px;
+	margin-top: 3%
+}
+
+.rotate{
+    /* Rotate div */
+    -ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-7deg);
+}
+
+.apply{
+    border: 2px solid #a1a1a1;
+    padding: 10px 40px; 
+    background: #dddddd;
+    width: 300px;
+    border-radius: 15px 50px;
+}
+.masterSpace{
+	/*background-image:url('/assets/background.jpg'); */
+	background-color: #1982C4;
+	margin-top: -15px; 
+	height: auto;
+}
+
+.space{
+	background-image:url('/assets/fidget.jpg');
+	margin-top: -20px; 
+	height: 100%;
+}
+
+.masterTable{
+	margin-left: 5%; 
+	margin-top: 20%; 
+	color: #2A388F;
+	width: 80%;
+	bottom: 0;
+	margin-bottom: 0
+}
+
+h2 span { 
+   color: black; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: white;
+   /*background: lighten(white);*/
+   padding: 10px; 
+   opacity: 0.5;
+}

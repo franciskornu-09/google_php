@@ -15,7 +15,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/"><img src="/assets/logo.png" width="20"></a>
+      <a class="navbar-brand" href="/"><img src="/assets/Psyphertxt_logo_sm.png" width="70" height="40" style="margin-top: -10%"></a>
     </div>
      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     <ul class="nav navbar-nav">
@@ -30,7 +30,7 @@
 
 </head>
 <body>
-<div class="container space" style="width: 100%; height: 750px">
+<div class="container space" style="width: 100%; ">
   <div class="row">
 	<!-- <div style="background-color:#2A388F; margin-top: -15px; height: auto;"> -->
 		@yield('content')		

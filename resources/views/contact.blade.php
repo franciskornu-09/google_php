@@ -3,7 +3,7 @@
 @section('content')
 <div class="masterSpace">
   <center>
-	<img src="/assets/logo_text.png" style="width:328px;z-index: -1;height: 200px">
+	  <img src="/assets/Psyphertxt_logo-06.png" height="250" style="width: 50%;z-index: -1">
 		<h2 style="color: white"><i>Contact Us</i></h2>
 		<hr noshade>
 	</center>

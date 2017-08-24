@@ -36,6 +36,9 @@ class MailController extends Controller
                 'to'      => 'Psyphertxt <franciskornu@psyphertxt.com>',
                 'subject' => 'Hello Psyphertxt',
                 'text'    => $msg));
+      if ($result) {
+           return redirect('career');
+        }
 
    }
 

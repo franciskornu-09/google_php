@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', 'HomeController@index');
 
 Route::get('about', function(){
 	return view('about');
@@ -30,6 +28,10 @@ Route::get('sendSecond','MailController@html_email');
 Route::get('career', function(){
 	return view('career');
 });
+
+Route::get('products', 'ProductController@index');
+
+Route::get('products2', 'ProductController@index');
 
 Route::get('error', function(){
 	return view('error');

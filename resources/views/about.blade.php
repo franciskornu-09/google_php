@@ -1,45 +1,17 @@
-@extends('master')
+@extends('app')
 
 @section('content')
-  <div class="masterSpace">
-  <center>
-  <img src="/assets/Psyphertxt_logo-06.png" height="250" style="width: 50%;z-index: -1">
-	<h2><i style="color: white">About Us</i></h2>	
+<div class="heading">
+	About Us
+</div>
+<div class="col-md-12 text-content">
+Pots and pans make the most essential part of your cookware. There are lots of various types available for each particular cooking method or a few different methods.
 
-		<hr noshade>
-	</center>
-	</div>
-	<center>
-	<ul class="nav nav-tabs" style="width: 50%; margin-top: 1%">
-  <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
-  <li><a href="#profile" data-toggle="tab">Profile</a></li>
-</ul>
-<div id="myTabContent" class="tab-content" style="width: 50%;margin-bottom: 10%">
-  <div class="tab-pane fade active in" id="home">
-    <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
-  </div>
-  <div class="tab-pane fade" id="profile">
- <div class="card col-sm-3 col-sm-offset-2" style="width: 20rem;">
-  <img class="card-img-top" width="100" height="100" src="https://appstickers-cdn.appadvice.com/1191205189/820377209/fc05652a94f75a5305a8ba818ccc88e7-9.png">
-  <div class="card-block">
-    <h4 class="card-title">Card title</h4>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
+Skillet/frying pan has a flat bottom with short sides that are flared or sloped, which makes it easier to toss and turn food with a spatula. The pan is usually made of a responsive to heat material such as lined copper, stainless steel with a copper or aluminum core, anodized aluminum or cast iron. Non-stick surface is also popular in such pans. They are available in different sizes and generally come with a cover.
+
+Roasting pan is usually of a rectangular shape with low sides allowing the heat from the oven to expose the entire surface of the meat. Roasting pan is generally used with a rack to prevent the meat from sitting in its own juices and stewing instead of browning. The pans are available made of different materials including stainless steel, aluminum with non-stick surface, clay and granite.
+
+Saucepan is a round pot with high straight sides and a flat bottom, can be used for several purposes, such as cooking soup, stewing vegetables, making sauces. There are a few styles to suit special purposes. A saucepan known as a Windsor has sides that flare out and another known as a saucier has sides that are rounded. There are also different sizes and materials of saucepans. Most of them have a snug fitting cover.
+th deeper sides similar to a frying pan. Many grill pans are made of cast iron and are available in different shapes and sizes.
 </div>
- <div class="card col-sm-3 col-sm-offset-2" style="width: 20rem;">
-  <img class="card-img-top" width="100" height="100" src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/6/000/1cb/368/3b824c4.jpg">
-  <div class="card-block">
-    <h4 class="card-title">Evans</h4>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
-</div><div class="card col-sm-3 col-sm-offset-2" style="width: 20rem;">
-  <img class="card-img-top" width="100" height="100" src="https://appstickers-cdn.appadvice.com/1191205189/820377209/fc05652a94f75a5305a8ba818ccc88e7-9.png">
-  <div class="card-block">
-    <h4 class="card-title">Card title</h4>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
-</div>
-  </div>
-</div>
-</center>
 @endsection

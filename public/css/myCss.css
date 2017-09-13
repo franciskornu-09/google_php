@@ -1,32 +1,379 @@
+html{
+	height: 100%;
+}
 body{
-	background-color: white
+	background-image: url('/assets/home.png');
+	background-size: cover;
 }
 
-.space{
-	background-image:url('/assets/background.jpg'); 
-	margin-top: -15px; 
-	height: auto;
+.download-GhanaTok {
+  width: 217px;
+  height: 24px;
+  font-family: Montserrat;
+  font-size: 20px;
+  letter-spacing: 0.7px;
+  text-align: justify;
+  color: #ffffff;
+  margin-left: 8%
 }
 
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0; 
-    width: 70%;
-    color: blue;
-    position: center;
+.mobile-GhanaTok {
+  width: 300px;
+  height: 24px;
+  font-family: Montserrat;
+  font-size: 16px;
+  letter-spacing: 0.7px;
+  text-align: left;
+  color: #ffffff;
+  margin-left: 10%
 }
 
-td{
-	background-color:#f2f2f2
+.ghanaTok{
+  height: 24px;
+  font-family: Montserrat;
+  font-size: 20px;
+  letter-spacing: 0.7px;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 1%;
+  margin-bottom: 25px;
+  margin-left: 0
+
 }
 
-.myColor{
-	color: black
+.main{
+	margin-top: 20%;
+	color: white; 
+	font-size: 150%;
+	text-align: left;
+	font-family: Montserrat;
 }
+
+.main_2{
+	margin-top: 5%;
+	color: white; 
+	font-size: 100%;
+	text-align: left;
+	font-family: Montserrat;
+}
+
+.main_3{
+	margin-top: -40px;
+	color: white; 
+	font-size: 120%;
+	text-align: left;
+	margin-left: 0;
+	font-family: Montserrat;
+}
+/*
+img {
+    max-width: 100%;
+    height: auto;
+    width: 280px; 
+    height: 100px;
+    margin-left: 15%
+}*/
+
+#image{
+    max-width: 100%;
+    height: auto;
+    width: 280px; /* ie8 */
+    height: 100px;
+    margin-left: 15%
+}
+
+.image {
+    height: auto;
+    width: 100%; /* ie8 */
+    height: 522px;
+    margin-top: 5%;
+    margin-right: 10%
+}
+
+/*@media screen and (max-width: 800px) and (min-width: 0px) {
+ img {
+    max-width: 100%;
+    margin-top: 3%;
+    height: auto;
+    width: 250px;
+    height: 100
+    }
+}*/
+
+@media screen and (max-width: 2560px) and (min-width: 769px) {
+	#hide{
+		display: none
+	}
+}
+
+#hide_ul{
+	display: all;
+}
+
+@media screen and (max-width: 993px) and (min-width: 0px) {
+	#hide_ul{
+	display: none;
+}		
+}
+
+@media screen and (max-width: 767px) and (min-width: 0px) {
+#hide_ul_3{
+	display: none;
+	}
+}
+
+@media screen and (max-width: 2560px) and (min-width: 769px) {
+#hide_ul_3{
+	display: none;
+	}
+}
+
+@media screen and (max-width: 2560px) and (min-width: 994px) {
+	#hide_ul_2{
+	display: none;
+}	
+#hide_ul_3{
+	display: none;
+	}
+}
+
+@media screen and (max-width: 768px) and (min-width: 768px) {
+	#hide_ul_3{
+	display: all;
+	}
+
+	#hide_ul_2{
+		display: none;
+	}
+
+.menu_2{
+   font-size: 90%;
+   border-bottom: 3px solid white;;
+   font-weight: 600;
+   margin-left: 21%
+}
+
+}
+
+@media screen and (max-width: 767px) and (min-width: 0px) {
+	#hide_ul_2{
+	display: all;
+}	
+}
+
+@media screen and (max-width: 768px) and (min-width: 376px) {
+ #image {
+    max-width: 50%;
+    /*margin-top: -22%;*/
+    margin-left: 0;
+    height: auto;
+    width: auto\9; /* ie8 */
+    height: 100
+    }
+
+ .main{
+	margin-top: -2%;
+	color: white; 
+	font-size: 150%
+}
+
+.main_3{
+	margin-top: 5px;
+	color: white; 
+	font-size: 120%;
+	text-align: left;
+	margin-left: 0
+}
+}
+
+@media screen and (max-width: 768px) and (min-width: 0px) {
+	#hide{
+	display: all;
+	margin-top: 20px
+}
+
+}
+
+@media screen and (max-width: 2560px) and (min-width: 992px) {
+	#show{
+	display: all;
+	margin-top: 20px
+}
+	#show_2{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 2560px) and (min-width: 992px) {
+.show_footer{
+	display: all;
+}
+
+.show_footer_2{
+	display: none;
+}
+}
+
+@media screen and (max-width: 992px) and (min-width: 0px) {
+.show_footer{
+	display: none;
+}
+
+.show_footer_2{
+	display: all;
+}
+
+ #footer {
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    height: auto;
+    font-size: auto;
+    background-color: #f5f5f5;
+    background-image: url('/assets/footer-background.png');
+  }
+
+  .footer-block {
+    margin: 20px 0;
+	width: 50%;
+	font-family: Montserrat;
+	font-weight: 600;
+	letter-spacing: 0.4px;
+	text-align: left;
+	color: #6351c0;
+	font-size: 10px;
+}
+
+.footer-block-2 {
+    margin: 20px;
+	width: 50%;
+	font-family: Montserrat;
+	font-weight: 600;
+	letter-spacing: 0.4px;
+	text-align: right;
+	color: #6351c0;
+	float: right;
+	font-size: 10px
+}
+}
+
+@media screen and (max-width: 991px) and (min-width: 0px) {
+	#show{
+	display: none;
+}
+
+	#show_2{
+		display: all;
+	}
+
+}
+
+@media screen and (max-width: 375px) and (min-width: 0px) {
+ #image {
+    max-width: 50%;
+    margin-top: -20%;
+    height: auto;
+    margin-left: 0;
+    width: auto\9; 
+    height: 100
+    }
+}
+}
+
+.btn-outline {
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    border-color: white;
+    border-width: 2px
+}
+
+a {
+	color: white
+}
+
+.btn-primary.btn-outline {
+    color: white;
+}
+
+.trans-button{
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border-color: white;
+    border-width: 3px;
+    width: 30%
+}
+
+ #footer {
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    height: 50px;
+    background-color: #f5f5f5;
+    background-image: url('/assets/footer-background.png');
+  }
+
+.footer-block {
+    margin: 20px 0;
+	width: auto;
+	font-family: Montserrat;
+	font-weight: 600;
+	letter-spacing: 0.4px;
+	text-align: left;
+	color: #6351c0;
+}
+
+.footer-block-2 {
+    margin: 20px;
+	width: auto;
+	font-family: Montserrat;
+	font-weight: 600;
+	letter-spacing: 0.4px;
+	text-align: right;
+	color: #6351c0;
+	float: right;
+}
+
+.anchor {
+	color: #6351c0
+}
+
+/*.google-play-badge {
+  width: auto;
+  height: 150px;
+}*/
+
+/*.App_Store_Badge {
+  width: auto;
+  height: 150%;
+}
+
+.App_Store_Badge_2 {
+  width: auto;
+  height: 150%;
+  margin-right: -5%; 
+}*/
+
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+
+.menu{
+   font-size: 120%;
+   border-bottom: 3px solid white;
+   margin-top: 2%;
+   font-weight: 600;
+   margin-right: 7%;
+}
+
+.menu_2{
+   font-size: 90%;
+   border-bottom: 3px solid white;
+   margin-top: 3%;
+   margin-right: 5%
+} 
 
 .mySize{
 	font-size: 200%;
@@ -41,78 +388,143 @@ td{
 	margin-bottom:10%;
 }
 
-.myFooter{
-	position: static; 
-	bottom: 0;
-	width: 100%;
-	background-color: black;
-	color: white;
-	height: 55px;
-	margin-top: 3%
+.text-border{
+   display: block;
+   width: 70%; /* THIS */
+   height: 190px;
+   padding: 6px 12px;
+   font-size: 14px;
+   line-height: 1.42857143;
+   color: black; /* THIS */
+   background-color: #fff;
+   background-image: none;
+   border: 1px solid #ccc; /* THIS */
+   border-radius: 4px; /* THIS */
+   border-style: solid;
+   border-width: 2px;
 }
 
-.sFooter{
-	position: static; 
-	bottom: 0;
-	width: 100%;
-	background-color: black;
-	color: white;
-	height: 55px;
-	margin-top: 3%
+.heading {
+  width: 250px;
+  height: 44px;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 600;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 2%;
 }
 
-.sFoot{
-	position: fixed; 
-	bottom: 0;
-	width: 100%;
-	background-color: black;
-	color: white;
-	height: 55px;
-	margin-top: 3%
+.heading2{
+  width: 168px;
+  height: 44px;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 600;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 2%;
+  margin-left: -2%
 }
 
-.rotate{
-    /* Rotate div */
-    -ms-transform: rotate(-7deg); /* IE 9 */
-    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
-    transform: rotate(-7deg);
+.heading3{
+  width: 168px;
+  height: 44px;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 4%;
+  margin-left: -4%
 }
 
-.apply{
-    border: 2px solid #a1a1a1;
-    padding: 10px 40px; 
-    background: #dddddd;
-    width: 300px;
-    border-radius: 15px 50px;
-}
-.masterSpace{
-	/*background-image:url('/assets/background.jpg'); */
-	background-color: #1982C4;
-	margin-top: -15px; 
-	height: auto;
+.heading4{
+  width: 120px;
+  height: 30px;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: right;
+  color: #ffffff;
+  margin-top: 0;
+  margin-left: 0
 }
 
-.space{
-	background-image:url('/assets/fidget.jpg');
-	margin-top: -20px; 
-	height: 100%;
+.text-content {
+  /*width: 1200px;*/
+  height: 356px;
+  font-family: Montserrat;
+  font-size: auto;
+  letter-spacing: 0.5px;
+  text-align: justify;
+  color: #ffffff;
+  margin-left: 0;
+  margin-top: 2%;
+  line-height: 200%
 }
 
-.masterTable{
-	margin-left: 5%; 
-	margin-top: 20%; 
-	color: #2A388F;
-	width: 80%;
-	bottom: 0;
-	margin-bottom: 0
+.address{
+  width: 400px;
+  height: 356px;
+  font-family: Montserrat;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #ffffff;
+  margin-left: 0;
+  margin-top: 2%;
+  line-height: 200%
 }
 
-h2 span { 
-   color: black; 
-   font: bold 24px/45px Helvetica, Sans-Serif; 
-   letter-spacing: -1px;  
-   background: white;
-   /*background: lighten(white);*/
-   padding: 10px; 
-   opacity: 0.5;
+.address_2{
+  width: 400px;
+  height: 356px;
+  font-family: Montserrat;
+  font-size: auto;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #ffffff;
+  margin-left: 0;
+  margin-top: 2%;
+  line-height: 200%
+}
+
+.social_media{
+	width: 33.6px;
+	height: 33.5px;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 1em;
+}
+
+input[type=text]{
+	color: white
+}
+
+.box{
+	background: transparent;
+	border-top:0;
+	border-right: 0;
+	border-left: 0;
+	border-color: #ccc
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: white !important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: white !important;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: white !important;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus{
+color: 	 #99ffff !important
 }

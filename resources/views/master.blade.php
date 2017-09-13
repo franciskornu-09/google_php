@@ -21,8 +21,9 @@
     <ul class="nav navbar-nav">
       <li><a href="/">Home</a></li>
       <li><a href="about">About Us</a></li>
+      <li><a href="products">Products</a></li>
       <li><a href="career">Career</a></li>
-      <li><a href="contact">Contact Us</a></li>
+      <li><a href="contact">Contact Us</a></li>      
     </ul>
     </div>
   </div>
@@ -32,37 +33,36 @@
 <body>
 <div class="container" style="width: 100%;">
   <div class="row">
-	<!-- <div style="background-color:#2A388F; margin-top: -15px; height: auto;"> -->
 		@yield('content')		
-    <br>
+  </div>
+  <br>
     <center>
     <hr noshade>
   </center>
-  </div>
 	<center>
   <div style="background-color: white">
-  <div class="col-sm-3 col-sm-offset-2">
+  <div class="col-sm-2 col-sm-offset-2">
     <div class="card">
       <div class="card-block">
-        <h3 class="card-title">Special title treatment</h3>
+        <h3 class="card-title">Company</h3>
         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
         <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>
     </div>
   </div> 
-  <div class="col-sm-3">
+  <div class="col-sm-2 col-sm-offset-1">
     <div class="card">
       <div class="card-block">
-        <h3 class="card-title">Special title treatment</h3>
+        <h3 class="card-title">Products</h3>
         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
         <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>
     </div>
   </div>  
-  <div class="col-sm-3">
+  <div class="col-sm-2 col-sm-offset-1">
     <div class="card">
       <div class="card-block">
-        <h3 class="card-title">Special title treatment</h3>
+        <h3 class="card-title">Legal</h3>
         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
         <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>
@@ -70,12 +70,8 @@
   </div>
 </div>
 </center> 
-
 </div>
-</body>
-
- 
-  
+</body> 
 <footer>
   <div class="container sFooter">
     <div class="row" style="margin-top: 10px">
@@ -84,7 +80,7 @@
       </div>
       
       <div class="col-md-2 footerright" style="float: right;">
-       	Privacy
+        <a href="/">Privacy Policy</a> <!-- Change link to correct link -->
       </div>
     </div>
   </div>
